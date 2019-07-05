@@ -14,10 +14,12 @@
 		2FB543405705A93B469AA6ED953A2C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB4E477B5EBF2681010FA5845826FE0 /* Foundation.framework */; };
 		399FF8F022CF7824002ADF7A /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399FF8EE22CF77E1002ADF7A /* UICollectionView.swift */; };
 		399FF8F222CF786E002ADF7A /* NKAnyViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632B0FA9C2CC40A865B9D52B52DA1E29 /* NKAnyViewModel.framework */; };
+		399FF90122CF92E6002ADF7A /* NKGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399FF8FE22CF92E6002ADF7A /* NKGridViewController.swift */; };
+		399FF90222CF92E6002ADF7A /* NKGridConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399FF8FF22CF92E6002ADF7A /* NKGridConfigurator.swift */; };
+		399FF90322CF92E6002ADF7A /* NKGridViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399FF90022CF92E6002ADF7A /* NKGridViewable.swift */; };
 		3A8AD204933B6073B9245D3F2EDABDD3 /* NKAnyViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632B0FA9C2CC40A865B9D52B52DA1E29 /* NKAnyViewModel.framework */; };
 		46C84C329D1E1C1F93528081AA36DEC7 /* Pods-NKGridTemplate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB785683B199464D58CCDC1E3D047912 /* Pods-NKGridTemplate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D5985E2FF81A9ECDF387E31CCE63264 /* NKGridTemplate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 151C32F032446E1453109A3BAF86B64B /* NKGridTemplate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B7EC53ACF0C02B8A57594F38A685F82 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A76C879BD040307BB4C51780CC695C /* ReplaceMe.swift */; };
 		6C0116E90FEF2ADEB80AC557BC832562 /* NKAnyViewModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F049E1044794C7A9447BC2D0070906B2 /* NKAnyViewModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E537BC69E7AB2B84782CA62DB5E349A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB4E477B5EBF2681010FA5845826FE0 /* Foundation.framework */; };
 		75035114A35A15864B21C3BFB4356EF5 /* Pods-NKGridTemplate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 383755B3DCEA911E2BCECDB69B3DCE4D /* Pods-NKGridTemplate_Tests-dummy.m */; };
@@ -64,6 +66,9 @@
 		26DEE11191B0624F3B039A6A0D97D8CB /* Pods-NKGridTemplate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NKGridTemplate_Example-frameworks.sh"; sourceTree = "<group>"; };
 		383755B3DCEA911E2BCECDB69B3DCE4D /* Pods-NKGridTemplate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NKGridTemplate_Tests-dummy.m"; sourceTree = "<group>"; };
 		399FF8EE22CF77E1002ADF7A /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		399FF8FE22CF92E6002ADF7A /* NKGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NKGridViewController.swift; path = NKGridTemplate/Classes/NKGridViewController.swift; sourceTree = "<group>"; };
+		399FF8FF22CF92E6002ADF7A /* NKGridConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NKGridConfigurator.swift; path = NKGridTemplate/Classes/NKGridConfigurator.swift; sourceTree = "<group>"; };
+		399FF90022CF92E6002ADF7A /* NKGridViewable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NKGridViewable.swift; path = NKGridTemplate/Classes/NKGridViewable.swift; sourceTree = "<group>"; };
 		3B7F9ED7BD762E86A686CAF8A10D2D70 /* Pods-NKGridTemplate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NKGridTemplate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3DAA174566CEC8F76F7ED4BB968CC831 /* Pods-NKGridTemplate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NKGridTemplate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48729223E56B748F4D40F4C16989EDBB /* Pods-NKGridTemplate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKGridTemplate_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,7 +94,6 @@
 		BB785683B199464D58CCDC1E3D047912 /* Pods-NKGridTemplate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NKGridTemplate_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C8AF6AC6ECB4D0E0464F7E1D602AE6A9 /* NKGridTemplate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKGridTemplate-prefix.pch"; sourceTree = "<group>"; };
 		C9C7D962804D95DFC6E6370EA3E5572B /* Pods-NKGridTemplate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKGridTemplate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1A76C879BD040307BB4C51780CC695C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NKGridTemplate/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		D2B58BE5751EFCC54067BCB215AE6B64 /* NKGridTemplate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NKGridTemplate.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		D9AD6B75D2C424CE13904D0856BF899F /* Pods-NKGridTemplate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NKGridTemplate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E0FFB4157FBF57C14BA04D4862FEC31D /* Pods-NKGridTemplate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKGridTemplate_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +147,9 @@
 		08A1D2AB8B71C72C08A3F1ED94AA0147 /* NKGridTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				D1A76C879BD040307BB4C51780CC695C /* ReplaceMe.swift */,
+				399FF8FF22CF92E6002ADF7A /* NKGridConfigurator.swift */,
+				399FF90022CF92E6002ADF7A /* NKGridViewable.swift */,
+				399FF8FE22CF92E6002ADF7A /* NKGridViewController.swift */,
 				399FF8ED22CF77C6002ADF7A /* Extensions */,
 				994AF6B922B5D8EB14C5501A33EDC5EA /* Pod */,
 				3E886ECD68F98C3BBF3D85190EA0E6D9 /* Support Files */,
@@ -484,6 +490,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				399FF90122CF92E6002ADF7A /* NKGridViewController.swift in Sources */,
+				399FF90322CF92E6002ADF7A /* NKGridViewable.swift in Sources */,
+				399FF90222CF92E6002ADF7A /* NKGridConfigurator.swift in Sources */,
 				B14230D2D92FDD08F541F08AA7485973 /* NKAnyViewModel-dummy.m in Sources */,
 				9A9B92E2147EDAA19565ED789382E4C1 /* NKAnyViewModel.swift in Sources */,
 			);
@@ -503,7 +512,6 @@
 			files = (
 				399FF8F022CF7824002ADF7A /* UICollectionView.swift in Sources */,
 				26FFA12924FD8E66F8ECA3A16D18A7C0 /* NKGridTemplate-dummy.m in Sources */,
-				6B7EC53ACF0C02B8A57594F38A685F82 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
