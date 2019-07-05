@@ -1,0 +1,6 @@
+framework module Pods_NKGridTemplate_Example {
+  umbrella header "Pods-NKGridTemplate_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

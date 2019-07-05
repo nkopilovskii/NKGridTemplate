@@ -1,0 +1,16 @@
+PODS:
+  - NKGridTemplate (0.1.0)
+
+DEPENDENCIES:
+  - NKGridTemplate (from `../`)
+
+EXTERNAL SOURCES:
+  NKGridTemplate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NKGridTemplate: 8d7244246ee434ac734e29fdf653cb913e46b6bb
+
+PODFILE CHECKSUM: b8ee6334b65942f13e11c87049c8a7aa6b6af803
+
+COCOAPODS: 1.7.3
