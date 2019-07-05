@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		233F909D5D8EE1C6EAA955A1CA103B77 /* NKGridTemplate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 199EB7C820850A01A5CE5EC16D4E2C3A /* NKGridTemplate-dummy.m */; };
-		24A78E8DBA2FB28C736DBF82B90E4C36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		09BF37DD6460AC2E3EDA69BAC460BB1B /* Pods-NKGridTemplate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D69226D9EA29F173DA955A20BE9E31 /* Pods-NKGridTemplate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24A78E8DBA2FB28C736DBF82B90E4C36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB4E477B5EBF2681010FA5845826FE0 /* Foundation.framework */; };
+		26FFA12924FD8E66F8ECA3A16D18A7C0 /* NKGridTemplate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 199EB7C820850A01A5CE5EC16D4E2C3A /* NKGridTemplate-dummy.m */; };
+		2AA1B1708EECE68914F1178C5FE03DAA /* Pods-NKGridTemplate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CB7639527796FB82B34184CD4EA7C6 /* Pods-NKGridTemplate_Example-dummy.m */; };
+		2FB543405705A93B469AA6ED953A2C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB4E477B5EBF2681010FA5845826FE0 /* Foundation.framework */; };
+		399FF8F022CF7824002ADF7A /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399FF8EE22CF77E1002ADF7A /* UICollectionView.swift */; };
+		399FF8F222CF786E002ADF7A /* NKAnyViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632B0FA9C2CC40A865B9D52B52DA1E29 /* NKAnyViewModel.framework */; };
+		3A8AD204933B6073B9245D3F2EDABDD3 /* NKAnyViewModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632B0FA9C2CC40A865B9D52B52DA1E29 /* NKAnyViewModel.framework */; };
 		46C84C329D1E1C1F93528081AA36DEC7 /* Pods-NKGridTemplate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB785683B199464D58CCDC1E3D047912 /* Pods-NKGridTemplate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BC4221E38F8D58D6FD7B9A817CEBC64 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A76C879BD040307BB4C51780CC695C /* ReplaceMe.swift */; };
+		4D5985E2FF81A9ECDF387E31CCE63264 /* NKGridTemplate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 151C32F032446E1453109A3BAF86B64B /* NKGridTemplate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B7EC53ACF0C02B8A57594F38A685F82 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A76C879BD040307BB4C51780CC695C /* ReplaceMe.swift */; };
+		6C0116E90FEF2ADEB80AC557BC832562 /* NKAnyViewModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F049E1044794C7A9447BC2D0070906B2 /* NKAnyViewModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E537BC69E7AB2B84782CA62DB5E349A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB4E477B5EBF2681010FA5845826FE0 /* Foundation.framework */; };
 		75035114A35A15864B21C3BFB4356EF5 /* Pods-NKGridTemplate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 383755B3DCEA911E2BCECDB69B3DCE4D /* Pods-NKGridTemplate_Tests-dummy.m */; };
-		80AF4E489E4BE9D73E8D38431B63613B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A595B92BB516FBD89CC85BB6E21F9EE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BD6F614879135B6448AF5036DF6EA4EA /* NKGridTemplate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 151C32F032446E1453109A3BAF86B64B /* NKGridTemplate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEE38F54EE39129FF138423AFC144DC7 /* Pods-NKGridTemplate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D69226D9EA29F173DA955A20BE9E31 /* Pods-NKGridTemplate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBDF2AB96D1C9A4AFA8D6922070C1B8D /* Pods-NKGridTemplate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CB7639527796FB82B34184CD4EA7C6 /* Pods-NKGridTemplate_Example-dummy.m */; };
+		7D63ECFD0230C2EA8D0819A242D902A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB4E477B5EBF2681010FA5845826FE0 /* Foundation.framework */; };
+		9A9B92E2147EDAA19565ED789382E4C1 /* NKAnyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF470A24D101FC3537BDFF2E2F830EB /* NKAnyViewModel.swift */; };
+		B14230D2D92FDD08F541F08AA7485973 /* NKAnyViewModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAE6FD3DAEF99B59D400A27382CAB23 /* NKAnyViewModel-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +34,26 @@
 			remoteGlobalIDString = 7BA2505CC5C2F00E383675C32C99FC01;
 			remoteInfo = "Pods-NKGridTemplate_Example";
 		};
-		9DC5A595A235004981DBC4FB4093B859 /* PBXContainerItemProxy */ = {
+		54A2B36FBC92CA173FA799CE0E1A0600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788F22B23D97EFB568E9DF79DA9BBB79;
+			remoteInfo = NKAnyViewModel;
+		};
+		A5485CE1EBD1456C7C4B53B639A536A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 195EC411DF09B28CB540A3CAEA688BC3;
 			remoteInfo = NKGridTemplate;
+		};
+		F4B3A0487F54BCB8F8C479625EFCBA42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788F22B23D97EFB568E9DF79DA9BBB79;
+			remoteInfo = NKAnyViewModel;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -41,45 +62,47 @@
 		199EB7C820850A01A5CE5EC16D4E2C3A /* NKGridTemplate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NKGridTemplate-dummy.m"; sourceTree = "<group>"; };
 		210EBE0D185EEAA9B55538BAB57E05B3 /* Pods-NKGridTemplate_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NKGridTemplate_Tests-Info.plist"; sourceTree = "<group>"; };
 		26DEE11191B0624F3B039A6A0D97D8CB /* Pods-NKGridTemplate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NKGridTemplate_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		383755B3DCEA911E2BCECDB69B3DCE4D /* Pods-NKGridTemplate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NKGridTemplate_Tests-dummy.m"; sourceTree = "<group>"; };
+		399FF8EE22CF77E1002ADF7A /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		3B7F9ED7BD762E86A686CAF8A10D2D70 /* Pods-NKGridTemplate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NKGridTemplate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3DAA174566CEC8F76F7ED4BB968CC831 /* Pods-NKGridTemplate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NKGridTemplate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48729223E56B748F4D40F4C16989EDBB /* Pods-NKGridTemplate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKGridTemplate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4C32917E2BD588BF97F4805EF55BBEF2 /* NKAnyViewModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NKAnyViewModel-Info.plist"; sourceTree = "<group>"; };
+		58A36E0C6F63E1DE8558F77E6448CDE2 /* NKAnyViewModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NKAnyViewModel.modulemap; sourceTree = "<group>"; };
 		5D24DFE86F495254FFF2FED12A72C260 /* NKGridTemplate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NKGridTemplate.modulemap; sourceTree = "<group>"; };
-		62FC23C1513B8444A254CD68A3955AD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		64173580AF6F998E3F67F2CD570450F1 /* Pods_NKGridTemplate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NKGridTemplate_Tests.framework; path = "Pods-NKGridTemplate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62FC23C1513B8444A254CD68A3955AD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		632B0FA9C2CC40A865B9D52B52DA1E29 /* NKAnyViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKAnyViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64173580AF6F998E3F67F2CD570450F1 /* Pods_NKGridTemplate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NKGridTemplate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		677CC40583438BF242ABA18658A9ADF8 /* NKGridTemplate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NKGridTemplate.xcconfig; sourceTree = "<group>"; };
 		7B31297E4C3C6B1E02419CCC3FD336C8 /* Pods-NKGridTemplate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NKGridTemplate_Example.modulemap"; sourceTree = "<group>"; };
 		82602139B77049402AFE54796BF060DA /* Pods-NKGridTemplate_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NKGridTemplate_Example-Info.plist"; sourceTree = "<group>"; };
 		8534267D25A47A54A961EA57715A93D1 /* NKGridTemplate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NKGridTemplate-Info.plist"; sourceTree = "<group>"; };
+		93AFC71F947E100BFBC2D0BFB6B897DD /* NKAnyViewModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKAnyViewModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D8D28519CA648D11814E2A4FAF62DF /* Pods-NKGridTemplate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NKGridTemplate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		98D5A9999478ED5FEB6C36DB92F0366D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		98D5A9999478ED5FEB6C36DB92F0366D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		99CB7639527796FB82B34184CD4EA7C6 /* Pods-NKGridTemplate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NKGridTemplate_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A042A7A6316FE2C5D444895ACF21A091 /* Pods_NKGridTemplate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NKGridTemplate_Example.framework; path = "Pods-NKGridTemplate_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC0997DFD6BE1319714F2F6D6BA0A17 /* NKAnyViewModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NKAnyViewModel.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EF470A24D101FC3537BDFF2E2F830EB /* NKAnyViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKAnyViewModel.swift; path = NKAnyViewModel/Classes/NKAnyViewModel.swift; sourceTree = "<group>"; };
+		A042A7A6316FE2C5D444895ACF21A091 /* Pods_NKGridTemplate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NKGridTemplate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80EC2C39D5D6954838F3167C0D7EA03 /* Pods-NKGridTemplate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKGridTemplate_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BB785683B199464D58CCDC1E3D047912 /* Pods-NKGridTemplate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NKGridTemplate_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C8AF6AC6ECB4D0E0464F7E1D602AE6A9 /* NKGridTemplate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKGridTemplate-prefix.pch"; sourceTree = "<group>"; };
 		C9C7D962804D95DFC6E6370EA3E5572B /* Pods-NKGridTemplate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKGridTemplate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1A76C879BD040307BB4C51780CC695C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NKGridTemplate/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		D2B58BE5751EFCC54067BCB215AE6B64 /* NKGridTemplate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NKGridTemplate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D2B58BE5751EFCC54067BCB215AE6B64 /* NKGridTemplate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NKGridTemplate.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		D9AD6B75D2C424CE13904D0856BF899F /* Pods-NKGridTemplate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NKGridTemplate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E0FFB4157FBF57C14BA04D4862FEC31D /* Pods-NKGridTemplate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKGridTemplate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EAC2A5BAEDC70C7E6129E5D90DF12BA4 /* Pods-NKGridTemplate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NKGridTemplate_Tests.modulemap"; sourceTree = "<group>"; };
-		F572FD906F27149DD611F6C800AA724A /* NKGridTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NKGridTemplate.framework; path = NKGridTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAE6FD3DAEF99B59D400A27382CAB23 /* NKAnyViewModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NKAnyViewModel-dummy.m"; sourceTree = "<group>"; };
+		EDB4E477B5EBF2681010FA5845826FE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F049E1044794C7A9447BC2D0070906B2 /* NKAnyViewModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKAnyViewModel-umbrella.h"; sourceTree = "<group>"; };
+		F572FD906F27149DD611F6C800AA724A /* NKGridTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKGridTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E12AB0DED9A44BD9047986CA55C519 /* NKAnyViewModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKAnyViewModel-prefix.pch"; sourceTree = "<group>"; };
 		F8D69226D9EA29F173DA955A20BE9E31 /* Pods-NKGridTemplate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NKGridTemplate_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B489F08EDBA836A0CFDCB70E77C9CDC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80AF4E489E4BE9D73E8D38431B63613B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6D35D68CC13F44DC96DA7DC3C531291F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,11 +111,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA50F442C38289048C79C428DC950B96 /* Frameworks */ = {
+		93CD61FD6D3D7F9D9DE859C2CABF7AAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A595B92BB516FBD89CC85BB6E21F9EE8 /* Foundation.framework in Frameworks */,
+				6E537BC69E7AB2B84782CA62DB5E349A /* Foundation.framework in Frameworks */,
+				3A8AD204933B6073B9245D3F2EDABDD3 /* NKAnyViewModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB4F7AF443ACEA55531FFAEECE65A4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB543405705A93B469AA6ED953A2C22 /* Foundation.framework in Frameworks */,
+				399FF8F222CF786E002ADF7A /* NKAnyViewModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF7B2735645BB31C49660DF43BBC037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D63ECFD0230C2EA8D0819A242D902A8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,11 +144,20 @@
 			isa = PBXGroup;
 			children = (
 				D1A76C879BD040307BB4C51780CC695C /* ReplaceMe.swift */,
+				399FF8ED22CF77C6002ADF7A /* Extensions */,
 				994AF6B922B5D8EB14C5501A33EDC5EA /* Pod */,
 				3E886ECD68F98C3BBF3D85190EA0E6D9 /* Support Files */,
 			);
 			name = NKGridTemplate;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		15AAB0240A867BE426E4373A81679A06 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EDB4E477B5EBF2681010FA5845826FE0 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		200B0E0F83DD276BBE41243173572018 /* Development Pods */ = {
@@ -116,6 +166,28 @@
 				08A1D2AB8B71C72C08A3F1ED94AA0147 /* NKGridTemplate */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2B388E6999D4B14B6EE2C669781AC090 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58A36E0C6F63E1DE8558F77E6448CDE2 /* NKAnyViewModel.modulemap */,
+				9AC0997DFD6BE1319714F2F6D6BA0A17 /* NKAnyViewModel.xcconfig */,
+				EBAE6FD3DAEF99B59D400A27382CAB23 /* NKAnyViewModel-dummy.m */,
+				4C32917E2BD588BF97F4805EF55BBEF2 /* NKAnyViewModel-Info.plist */,
+				F6E12AB0DED9A44BD9047986CA55C519 /* NKAnyViewModel-prefix.pch */,
+				F049E1044794C7A9447BC2D0070906B2 /* NKAnyViewModel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NKAnyViewModel";
+			sourceTree = "<group>";
+		};
+		399FF8ED22CF77C6002ADF7A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				399FF8EE22CF77E1002ADF7A /* UICollectionView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		3E886ECD68F98C3BBF3D85190EA0E6D9 /* Support Files */ = {
@@ -141,9 +213,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		615800F3353CD2C399461D9B86EB5077 /* Products */ = {
+		6C146946E6031F5BE6056C65A741DDC0 /* NKAnyViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9EF470A24D101FC3537BDFF2E2F830EB /* NKAnyViewModel.swift */,
+				2B388E6999D4B14B6EE2C669781AC090 /* Support Files */,
+			);
+			path = NKAnyViewModel;
+			sourceTree = "<group>";
+		};
+		6DC805D630224FF5623662DDD06F01FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93AFC71F947E100BFBC2D0BFB6B897DD /* NKAnyViewModel.framework */,
 				F572FD906F27149DD611F6C800AA724A /* NKGridTemplate.framework */,
 				A042A7A6316FE2C5D444895ACF21A091 /* Pods_NKGridTemplate_Example.framework */,
 				64173580AF6F998E3F67F2CD570450F1 /* Pods_NKGridTemplate_Tests.framework */,
@@ -194,12 +276,13 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		A767DF9EAC0FC17EEC2A6F9A3B724336 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				632B0FA9C2CC40A865B9D52B52DA1E29 /* NKAnyViewModel.framework */,
+				15AAB0240A867BE426E4373A81679A06 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -207,23 +290,32 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				200B0E0F83DD276BBE41243173572018 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				615800F3353CD2C399461D9B86EB5077 /* Products */,
+				A767DF9EAC0FC17EEC2A6F9A3B724336 /* Frameworks */,
+				E2B97FD61405FF56BD9E306D9419E92F /* Pods */,
+				6DC805D630224FF5623662DDD06F01FE /* Products */,
 				42A81DECEF5399F86BE2E05D0A6A7341 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E2B97FD61405FF56BD9E306D9419E92F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				6C146946E6031F5BE6056C65A741DDC0 /* NKAnyViewModel */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		100EA235A38808BD08AFD887D88B7FDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BF37DD6460AC2E3EDA69BAC460BB1B /* Pods-NKGridTemplate_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86FEA779EBF85746A97DCC8910B6C32E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,19 +324,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE20DDC8E0FB559D6E29B499F2DCB54B /* Headers */ = {
+		D61C6C6F4A6F939D600181F61BF7AA87 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE38F54EE39129FF138423AFC144DC7 /* Pods-NKGridTemplate_Example-umbrella.h in Headers */,
+				6C0116E90FEF2ADEB80AC557BC832562 /* NKAnyViewModel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA0A432626567E36957745B028EEE9A7 /* Headers */ = {
+		F00176FC396B14FF38415A61D266BE52 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD6F614879135B6448AF5036DF6EA4EA /* NKGridTemplate-umbrella.h in Headers */,
+				4D5985E2FF81A9ECDF387E31CCE63264 /* NKGridTemplate-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,35 +345,55 @@
 /* Begin PBXNativeTarget section */
 		195EC411DF09B28CB540A3CAEA688BC3 /* NKGridTemplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D0A88C260C3EB7E5BF3B6A12A5144D7 /* Build configuration list for PBXNativeTarget "NKGridTemplate" */;
+			buildConfigurationList = B85CA074F1870ABFF6B30FCA0C9831F6 /* Build configuration list for PBXNativeTarget "NKGridTemplate" */;
 			buildPhases = (
-				EA0A432626567E36957745B028EEE9A7 /* Headers */,
-				CB73ED6B59CBD8941DA991B7F3769C19 /* Sources */,
-				FA50F442C38289048C79C428DC950B96 /* Frameworks */,
-				4737E2CAEB46052F5073319ADBFFD0D7 /* Resources */,
+				F00176FC396B14FF38415A61D266BE52 /* Headers */,
+				C2DFB3E8118F9CEC793465036BD8C447 /* Sources */,
+				93CD61FD6D3D7F9D9DE859C2CABF7AAF /* Frameworks */,
+				73D12F5A96A090445FFBB92A090014D2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				35DD1456A05D1B3686964BBB5B30345E /* PBXTargetDependency */,
 			);
 			name = NKGridTemplate;
 			productName = NKGridTemplate;
 			productReference = F572FD906F27149DD611F6C800AA724A /* NKGridTemplate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7BA2505CC5C2F00E383675C32C99FC01 /* Pods-NKGridTemplate_Example */ = {
+		788F22B23D97EFB568E9DF79DA9BBB79 /* NKAnyViewModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1993403F90884EAC27A6D8CF6189E5B /* Build configuration list for PBXNativeTarget "Pods-NKGridTemplate_Example" */;
+			buildConfigurationList = 946F460BBBDCD42C97E1427DE583EF81 /* Build configuration list for PBXNativeTarget "NKAnyViewModel" */;
 			buildPhases = (
-				DE20DDC8E0FB559D6E29B499F2DCB54B /* Headers */,
-				E555477B5D900C5F685DFAE6F74322D6 /* Sources */,
-				6B489F08EDBA836A0CFDCB70E77C9CDC /* Frameworks */,
-				60BD38E7814BCA280936431AFD3761DB /* Resources */,
+				D61C6C6F4A6F939D600181F61BF7AA87 /* Headers */,
+				313937DCE08242711E4BEA1A38B7697E /* Sources */,
+				AB4F7AF443ACEA55531FFAEECE65A4A8 /* Frameworks */,
+				D359F5F92C492B2947F71EECDAF365D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				253E4FB303200E96333703A2D6085602 /* PBXTargetDependency */,
+			);
+			name = NKAnyViewModel;
+			productName = NKAnyViewModel;
+			productReference = 93AFC71F947E100BFBC2D0BFB6B897DD /* NKAnyViewModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BA2505CC5C2F00E383675C32C99FC01 /* Pods-NKGridTemplate_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D025B06CA49BFC0421F317B307C442B /* Build configuration list for PBXNativeTarget "Pods-NKGridTemplate_Example" */;
+			buildPhases = (
+				100EA235A38808BD08AFD887D88B7FDC /* Headers */,
+				924046C4C39300AE4B4529F91D62220E /* Sources */,
+				ADF7B2735645BB31C49660DF43BBC037 /* Frameworks */,
+				505166054F8B991924D062D87074A84C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02DA735D9DA60BDFB0D45EA64A40D0D1 /* PBXTargetDependency */,
+				6CC3D384809FF1CDE62C0AB9EBFA1D0F /* PBXTargetDependency */,
 			);
 			name = "Pods-NKGridTemplate_Example";
 			productName = "Pods-NKGridTemplate_Example";
@@ -324,10 +436,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 615800F3353CD2C399461D9B86EB5077 /* Products */;
+			productRefGroup = 6DC805D630224FF5623662DDD06F01FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				788F22B23D97EFB568E9DF79DA9BBB79 /* NKAnyViewModel */,
 				195EC411DF09B28CB540A3CAEA688BC3 /* NKGridTemplate */,
 				7BA2505CC5C2F00E383675C32C99FC01 /* Pods-NKGridTemplate_Example */,
 				85A946C7B876B2085ED7352B0CD0CE8B /* Pods-NKGridTemplate_Tests */,
@@ -336,14 +449,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4737E2CAEB46052F5073319ADBFFD0D7 /* Resources */ = {
+		505166054F8B991924D062D87074A84C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60BD38E7814BCA280936431AFD3761DB /* Resources */ = {
+		73D12F5A96A090445FFBB92A090014D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,23 +470,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		CB73ED6B59CBD8941DA991B7F3769C19 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		D359F5F92C492B2947F71EECDAF365D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				233F909D5D8EE1C6EAA955A1CA103B77 /* NKGridTemplate-dummy.m in Sources */,
-				6BC4221E38F8D58D6FD7B9A817CEBC64 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E555477B5D900C5F685DFAE6F74322D6 /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		313937DCE08242711E4BEA1A38B7697E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBDF2AB96D1C9A4AFA8D6922070C1B8D /* Pods-NKGridTemplate_Example-dummy.m in Sources */,
+				B14230D2D92FDD08F541F08AA7485973 /* NKAnyViewModel-dummy.m in Sources */,
+				9A9B92E2147EDAA19565ED789382E4C1 /* NKAnyViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924046C4C39300AE4B4529F91D62220E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA1B1708EECE68914F1178C5FE03DAA /* Pods-NKGridTemplate_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2DFB3E8118F9CEC793465036BD8C447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				399FF8F022CF7824002ADF7A /* UICollectionView.swift in Sources */,
+				26FFA12924FD8E66F8ECA3A16D18A7C0 /* NKGridTemplate-dummy.m in Sources */,
+				6B7EC53ACF0C02B8A57594F38A685F82 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,11 +518,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		253E4FB303200E96333703A2D6085602 /* PBXTargetDependency */ = {
+		02DA735D9DA60BDFB0D45EA64A40D0D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NKAnyViewModel;
+			target = 788F22B23D97EFB568E9DF79DA9BBB79 /* NKAnyViewModel */;
+			targetProxy = F4B3A0487F54BCB8F8C479625EFCBA42 /* PBXContainerItemProxy */;
+		};
+		35DD1456A05D1B3686964BBB5B30345E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NKAnyViewModel;
+			target = 788F22B23D97EFB568E9DF79DA9BBB79 /* NKAnyViewModel */;
+			targetProxy = 54A2B36FBC92CA173FA799CE0E1A0600 /* PBXContainerItemProxy */;
+		};
+		6CC3D384809FF1CDE62C0AB9EBFA1D0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NKGridTemplate;
 			target = 195EC411DF09B28CB540A3CAEA688BC3 /* NKGridTemplate */;
-			targetProxy = 9DC5A595A235004981DBC4FB4093B859 /* PBXContainerItemProxy */;
+			targetProxy = A5485CE1EBD1456C7C4B53B639A536A5 /* PBXContainerItemProxy */;
 		};
 		F0170EF2463BE31F719E9F67B28F6CC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -403,110 +545,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01AFB6FA10BD6094D7E386C3378BA1D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0FFB4157FBF57C14BA04D4862FEC31D /* Pods-NKGridTemplate_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NKGridTemplate_Example/Pods-NKGridTemplate_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NKGridTemplate_Example/Pods-NKGridTemplate_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		568ED8C2E808873746CABD965AAFE111 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A80EC2C39D5D6954838F3167C0D7EA03 /* Pods-NKGridTemplate_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NKGridTemplate_Tests/Pods-NKGridTemplate_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NKGridTemplate_Tests/Pods-NKGridTemplate_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5E609219AAB49994EC198C5D7D5EC2E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 677CC40583438BF242ABA18658A9ADF8 /* NKGridTemplate.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NKGridTemplate/NKGridTemplate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NKGridTemplate/NKGridTemplate-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NKGridTemplate/NKGridTemplate.modulemap";
-				PRODUCT_MODULE_NAME = NKGridTemplate;
-				PRODUCT_NAME = NKGridTemplate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6AA447F1E6147F2279FB5D7DDC206B99 /* Release */ = {
+		02E767F17640173080098C1BBE0A18EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48729223E56B748F4D40F4C16989EDBB /* Pods-NKGridTemplate_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -518,7 +562,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NKGridTemplate_Example/Pods-NKGridTemplate_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NKGridTemplate_Example/Pods-NKGridTemplate_Example.modulemap";
@@ -536,98 +580,7 @@
 			};
 			name = Release;
 		};
-		9CEBF72DF27186DF52CFD1007E2D3247 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 677CC40583438BF242ABA18658A9ADF8 /* NKGridTemplate.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NKGridTemplate/NKGridTemplate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NKGridTemplate/NKGridTemplate-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NKGridTemplate/NKGridTemplate.modulemap";
-				PRODUCT_MODULE_NAME = NKGridTemplate;
-				PRODUCT_NAME = NKGridTemplate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -678,7 +631,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -691,11 +644,12 @@
 			};
 			name = Debug;
 		};
-		DD2700C12997A9C751166FCCD8977AB0 /* Debug */ = {
+		3879CF81D15C6D975647A55FB2FBE083 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9C7D962804D95DFC6E6370EA3E5572B /* Pods-NKGridTemplate_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -707,7 +661,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NKGridTemplate_Tests/Pods-NKGridTemplate_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NKGridTemplate_Tests/Pods-NKGridTemplate_Tests.modulemap";
@@ -724,14 +678,272 @@
 			};
 			name = Debug;
 		};
+		3FB886E26178DBDC01A55CD98C609027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC0997DFD6BE1319714F2F6D6BA0A17 /* NKAnyViewModel.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NKAnyViewModel/NKAnyViewModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NKAnyViewModel/NKAnyViewModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NKAnyViewModel/NKAnyViewModel.modulemap";
+				PRODUCT_MODULE_NAME = NKAnyViewModel;
+				PRODUCT_NAME = NKAnyViewModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B4B7FF63687990E82FB7D273CE0AA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 677CC40583438BF242ABA18658A9ADF8 /* NKGridTemplate.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NKGridTemplate/NKGridTemplate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NKGridTemplate/NKGridTemplate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NKGridTemplate/NKGridTemplate.modulemap";
+				PRODUCT_MODULE_NAME = NKGridTemplate;
+				PRODUCT_NAME = NKGridTemplate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58AFA5B261BD5CE490FA234B6ECCF80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80EC2C39D5D6954838F3167C0D7EA03 /* Pods-NKGridTemplate_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NKGridTemplate_Tests/Pods-NKGridTemplate_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NKGridTemplate_Tests/Pods-NKGridTemplate_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		77B96CB4A9E9118E6641A930402221F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 677CC40583438BF242ABA18658A9ADF8 /* NKGridTemplate.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NKGridTemplate/NKGridTemplate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NKGridTemplate/NKGridTemplate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NKGridTemplate/NKGridTemplate.modulemap";
+				PRODUCT_MODULE_NAME = NKGridTemplate;
+				PRODUCT_NAME = NKGridTemplate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CEAEC348A2BF9666276D8268B1147D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0FFB4157FBF57C14BA04D4862FEC31D /* Pods-NKGridTemplate_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NKGridTemplate_Example/Pods-NKGridTemplate_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NKGridTemplate_Example/Pods-NKGridTemplate_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D39FBACC6AE15AF7F0B3220C18035E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC0997DFD6BE1319714F2F6D6BA0A17 /* NKAnyViewModel.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NKAnyViewModel/NKAnyViewModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NKAnyViewModel/NKAnyViewModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NKAnyViewModel/NKAnyViewModel.modulemap";
+				PRODUCT_MODULE_NAME = NKAnyViewModel;
+				PRODUCT_NAME = NKAnyViewModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		27410A5668596D90FC6CFD4431900163 /* Build configuration list for PBXNativeTarget "Pods-NKGridTemplate_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD2700C12997A9C751166FCCD8977AB0 /* Debug */,
-				568ED8C2E808873746CABD965AAFE111 /* Release */,
+				3879CF81D15C6D975647A55FB2FBE083 /* Debug */,
+				58AFA5B261BD5CE490FA234B6ECCF80C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -739,26 +951,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D0A88C260C3EB7E5BF3B6A12A5144D7 /* Build configuration list for PBXNativeTarget "NKGridTemplate" */ = {
+		946F460BBBDCD42C97E1427DE583EF81 /* Build configuration list for PBXNativeTarget "NKAnyViewModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CEBF72DF27186DF52CFD1007E2D3247 /* Debug */,
-				5E609219AAB49994EC198C5D7D5EC2E4 /* Release */,
+				D39FBACC6AE15AF7F0B3220C18035E39 /* Debug */,
+				3FB886E26178DBDC01A55CD98C609027 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1993403F90884EAC27A6D8CF6189E5B /* Build configuration list for PBXNativeTarget "Pods-NKGridTemplate_Example" */ = {
+		9D025B06CA49BFC0421F317B307C442B /* Build configuration list for PBXNativeTarget "Pods-NKGridTemplate_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01AFB6FA10BD6094D7E386C3378BA1D1 /* Debug */,
-				6AA447F1E6147F2279FB5D7DDC206B99 /* Release */,
+				CEAEC348A2BF9666276D8268B1147D0D /* Debug */,
+				02E767F17640173080098C1BBE0A18EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B85CA074F1870ABFF6B30FCA0C9831F6 /* Build configuration list for PBXNativeTarget "NKGridTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B96CB4A9E9118E6641A930402221F8 /* Debug */,
+				4B4B7FF63687990E82FB7D273CE0AA80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,5 +1,5 @@
 import XCTest
-import NKGridTemplate
+//import NKGridTemplate
 
 class Tests: XCTestCase {
     

@@ -1,16 +1,24 @@
 PODS:
-  - NKGridTemplate (0.1.0)
+  - NKAnyViewModel (0.1.0.1)
+  - NKGridTemplate (0.1.0):
+    - NKAnyViewModel (~> 0.1.0.1)
 
 DEPENDENCIES:
+  - NKAnyViewModel (~> 0.1.0.1)
   - NKGridTemplate (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - NKAnyViewModel
 
 EXTERNAL SOURCES:
   NKGridTemplate:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NKGridTemplate: 8d7244246ee434ac734e29fdf653cb913e46b6bb
+  NKAnyViewModel: 5c54426df9bc59178954907a811eca0f33cad211
+  NKGridTemplate: 55d9fb574b06f4e1852ec6b66045328f46403e1f
 
-PODFILE CHECKSUM: b8ee6334b65942f13e11c87049c8a7aa6b6af803
+PODFILE CHECKSUM: 9e2261c490da3e3ab421e4239e32a153ea428d8d
 
 COCOAPODS: 1.7.3

@@ -38,15 +38,15 @@
 		607FACE51AFB9204008FA782 /* NKGridTemplate_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NKGridTemplate_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		77277A68A45CA154EF5AF030 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		77277A68A45CA154EF5AF030 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		896C43F738113531462F880E /* Pods-NKGridTemplate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKGridTemplate_Tests.release.xcconfig"; path = "Target Support Files/Pods-NKGridTemplate_Tests/Pods-NKGridTemplate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9557D7BEF9416848A97B2626 /* NKGridTemplate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NKGridTemplate.podspec; path = ../NKGridTemplate.podspec; sourceTree = "<group>"; };
+		9557D7BEF9416848A97B2626 /* NKGridTemplate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NKGridTemplate.podspec; path = ../NKGridTemplate.podspec; sourceTree = "<group>"; };
 		A5FA5A8131178A73DB79B266 /* Pods_NKGridTemplate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NKGridTemplate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9192A5343A4FDBBE467F314 /* Pods-NKGridTemplate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKGridTemplate_Example.debug.xcconfig"; path = "Target Support Files/Pods-NKGridTemplate_Example/Pods-NKGridTemplate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BD1BB101E0D096BFC363DE4F /* Pods-NKGridTemplate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKGridTemplate_Example.release.xcconfig"; path = "Target Support Files/Pods-NKGridTemplate_Example/Pods-NKGridTemplate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CFEAC871D966F846504B8BE0 /* Pods-NKGridTemplate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKGridTemplate_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NKGridTemplate_Tests/Pods-NKGridTemplate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0CFA7ACEC1D2478241403BD /* Pods_NKGridTemplate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NKGridTemplate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAEF11CBE3FD094476CEB8B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EAEF11CBE3FD094476CEB8B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				CFEAC871D966F846504B8BE0 /* Pods-NKGridTemplate_Tests.debug.xcconfig */,
 				896C43F738113531462F880E /* Pods-NKGridTemplate_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,10 +269,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NKGridTemplate_Example/Pods-NKGridTemplate_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NKAnyViewModel/NKAnyViewModel.framework",
 				"${BUILT_PRODUCTS_DIR}/NKGridTemplate/NKGridTemplate.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NKAnyViewModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NKGridTemplate.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
