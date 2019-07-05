@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NKGridTemplate_Example' do
+  pod 'NKGridTemplate', :path => '../'
+
+  target 'NKGridTemplate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
