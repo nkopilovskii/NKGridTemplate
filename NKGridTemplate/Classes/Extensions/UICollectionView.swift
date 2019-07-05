@@ -29,7 +29,8 @@
 import UIKit
 import NKAnyViewModel
 
-extension UICollectionView {
+//MARK: - UITableView. NKAnyViewModel
+public extension UICollectionView {
   
   func dequeueReusableCell(with model: NKAnyViewModel, for indexPath: IndexPath) -> UICollectionViewCell {
     let identifier = String(describing: type(of: model).viewAnyType)
@@ -77,5 +78,28 @@ extension UICollectionView {
   }
   
 }
+//MARK: -
 
-
+//MARK: - UICollectionView Refresh Control
+public extension UICollectionView {
+  
+  func addRefresh(target: Any?, action: Selector, text: String? = nil) {
+    guard refreshControl == nil else { return }
+    let control = UIRefreshControl()
+    control.addTarget(target, action: action, for: .valueChanged)
+    control.layer.zPosition = -1
+    
+    if let text = text {
+      control.attributedTitle = NSAttributedString(string: text)
+    }
+    
+    refreshControl = control
+  }
+  
+  func deleteRefresh() {
+    refreshControl?.removeFromSuperview()
+    refreshControl = nil
+  }
+  
+}
+//MARK: -
