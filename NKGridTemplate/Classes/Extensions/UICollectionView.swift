@@ -49,14 +49,14 @@ public extension UICollectionView {
   
   func dequeueReusableHeaderView(with model: NKAnyViewModel, for indexPath: IndexPath) -> UICollectionReusableView {
     let identifier = String(describing: type(of: model).viewAnyType)
-    let header = dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: identifier, for: indexPath)
+    let header = dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: identifier, for: indexPath)
     model.setupAny(view: header)
     return header
   }
   
   func dequeueReusableFooterView(with model: NKAnyViewModel, for indexPath: IndexPath) -> UICollectionReusableView {
     let identifier = String(describing: type(of: model).viewAnyType)
-    let header = dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionFooter, withReuseIdentifier: identifier, for: indexPath)
+    let header = dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: identifier, for: indexPath)
     model.setupAny(view: header)
     return header
   }
@@ -65,7 +65,7 @@ public extension UICollectionView {
     nibModels.forEach {
       let identifier = String(describing: $0.viewAnyType)
       let nib = UINib(nibName: identifier, bundle: nil)
-      register(nib, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: identifier)
+      register(nib, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: identifier)
     }
   }
   
@@ -73,7 +73,7 @@ public extension UICollectionView {
     nibModels.forEach {
       let identifier = String(describing: $0.viewAnyType)
       let nib = UINib(nibName: identifier, bundle: nil)
-      register(nib, forSupplementaryViewOfKind: UICollectionElementKindSectionFooter, withReuseIdentifier: identifier)
+      register(nib, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: identifier)
     }
   }
   

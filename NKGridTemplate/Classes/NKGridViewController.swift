@@ -63,10 +63,10 @@ open class NKGridViewController: UIViewController,  NKGridViewable, UICollection
   }
   
   open func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-    if kind == UICollectionElementKindSectionHeader {
+    if kind == UICollectionView.elementKindSectionHeader {
       guard let viewModel = gridConfigurator?.headerViewModel(for: indexPath.section) else { return UICollectionReusableView() }
       return collectionView.dequeueReusableHeaderView(with: viewModel, for: indexPath)
-    } else if kind == UICollectionElementKindSectionFooter {
+    } else if kind == UICollectionView.elementKindSectionFooter {
       guard let viewModel = gridConfigurator?.footerViewModel(for: indexPath.section) else { return UICollectionReusableView() }
       return collectionView.dequeueReusableFooterView(with: viewModel, for: indexPath)
     }
