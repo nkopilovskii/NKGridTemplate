@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NKGridTemplate'
-  s.version          = '0.1.0'
+  s.version          = '0.1.0.1'
   s.summary          = 'Tool for quick and compact UICollectionView configuration.'
 
   s.description      = <<-DESC
